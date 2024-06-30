@@ -28,4 +28,4 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 注意事项：
 1. 步骤1中，默认选择Empty Quartz --> Treat links as shortest path，即在content文件夹中创建一个空白库，后续再添加笔记。若已有撰写好的Obsidian库，可以选择Copy（复制）或者Symlink（快捷方式链接），但本人均未尝试过。
-2. 个人配置完成后，需要先进行`git push`然后再进行`npm quartz sync`才能进行更新，不知道是哪里出了问题，期待解决。
+2. 个人配置完成后，需要先进行`npm quartz sync`然后再进行`git push`才能进行更新，不知道是哪里出了问题，期待解决。
