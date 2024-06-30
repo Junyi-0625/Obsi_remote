@@ -11,4 +11,5 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 # 目录
 [[数据结构]]
+
 [[组成原理]]
