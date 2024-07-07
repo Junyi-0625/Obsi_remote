@@ -28,5 +28,6 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 注意事项：
 1. 步骤1中，默认选择Empty Quartz --> Treat links as shortest path，即在content文件夹中创建一个空白库，后续再添加笔记。若已有撰写好的Obsidian库，可以选择Copy（复制）或者Symlink（快捷方式链接），但我都没有尝试过，选择后可能需要修改路径选项。
-2. 每次同步前需要***关闭***Obsidian中打开的content库，再在终端（或Powershell/命令行）中输入`npm quartz sync`，否则会出现3中的问题（大概类似word文档没关闭的时候不能直接复制...？）。
+2. 每次同步前需要**关闭**Obsidian中打开的content库，再在终端（或Powershell/命令行）中输入`npm quartz sync`，否则会出现3中的问题（大概类似word文档没关闭的时候不能直接复制...？）。
 3. 每次同步时，终端中的`npm quartz sync`执行完成后均会出现`Error: EBUSY: resource busy or locked, rmdir 'D:\Quartz\quartz\content'`字样的报错，查看github仓库发现并未更新，此时输入`git push`命令才能完成同步。
+4. Quartz网页中的格式、字样与Obsidian中的略有区别，最重要的一点是Obsidian中两次换行相当于网页中的一次换行（类似Latex），其他格式要求参考官方文档。
