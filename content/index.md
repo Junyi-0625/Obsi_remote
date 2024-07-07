@@ -16,7 +16,7 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 
 ---
-# 如何使用quartz发布Obsidian笔记（个人记录）
+# 如何使用Quartz发布Obsidian笔记（个人记录）
 主要参考：[如何使用 Quartz 4.0 和 GitHub Pages 免费发布 Obsidian 笔记 (insile.github.io)](https://insile.github.io/my-notes/%E7%AC%94%E8%AE%B0/%E5%85%AC%E5%85%B1%E7%AC%94%E8%AE%B0%E5%BA%93/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-Quartz-4.0-%E5%92%8C-GitHub-Pages-%E5%85%8D%E8%B4%B9%E5%8F%91%E5%B8%83-Obsidian-%E7%AC%94%E8%AE%B0)
 
 官方文档：[Welcome to Quartz 4 (jzhao.xyz)](https://quartz.jzhao.xyz/)
@@ -28,6 +28,6 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 注意事项：
 1. 步骤1中，默认选择Empty Quartz --> Treat links as shortest path，即在content文件夹中创建一个空白库，后续再添加笔记。若已有撰写好的Obsidian库，可以选择Copy（复制）或者Symlink（快捷方式链接），但我都没有尝试过，选择后可能需要修改路径选项。
-2. 每次同步前需要关闭Obsidian中打开的content库，再在终端（或Powershell/命令行）中输入`npm quartz sync`，否则会出现3、4中的问题。
+2. 每次同步前需要关闭Obsidian中打开的content库，再在终端（或Powershell/命令行）中输入`npm quartz sync`，否则会出现3、4中的问题（大概类似word文档没关闭的时候不能直接复制...？）。
 3. 在我配置完成后，每次同步需要先进行`npm quartz sync`，然后再进行`git push`才能更新。
 4. 每次进行`npm quartz sync`后均会出现`Error: EBUSY: resource busy or locked, rmdir 'D:\Quartz\quartz\content'`字样的报错，但不影响同步以及网页发布。
