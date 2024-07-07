@@ -31,3 +31,4 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 2. 每次同步前需要**关闭**Obsidian中打开的content库，再在终端（或Powershell/命令行）中输入`npm quartz sync`，否则会出现3中的问题（大概类似word文档没关闭的时候不能直接复制...？）。
 3. 每次同步时，终端中的`npm quartz sync`执行完成后均会出现`Error: EBUSY: resource busy or locked, rmdir 'D:\Quartz\quartz\content'`字样的报错，查看github仓库发现并未更新，此时输入`git push`命令才能完成同步。
 4. Quartz网页中的格式、字样与Obsidian中的略有区别，最重要的一点是Obsidian中两次换行相当于网页中的一次换行（类似Latex），其他格式要求参考官方文档。
+5. 出现`fatal: unable to access 'https://github.com/Junyi-0625/Obsi_remote/': HTTP/2 stream 1 was not closed cleanly before end of the underlying stream`报错，参考[【Git】unable to access https://github.com/xxx/xxx: HTTP/2 stream 1 was not closed cleanly before-CSDN博客](https://blog.csdn.net/m0_47406832/article/details/123044722)进行解决。
