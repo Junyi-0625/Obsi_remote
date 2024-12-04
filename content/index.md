@@ -14,6 +14,7 @@ See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 [[组成原理]]
 
+[计算机网络](网络仓库/计算机网络.md)
 
 ---
 # 如何使用Quartz发布Obsidian笔记（个人记录）
